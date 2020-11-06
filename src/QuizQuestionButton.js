@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
 class QuizQuestionButton extends Component {
-    render (
+    render () {
         <li>
             <button></button>
         </li>
-    )
 
+    }
 }
 
 export default QuizQuestionButton
