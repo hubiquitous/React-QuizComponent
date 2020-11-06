@@ -5,7 +5,7 @@ class QuizQuestion extends Component {
 
     handleClick(buttonText) {
         if (buttonText === this.props.quiz_question.answer) {
-            this.props.showNextQuestionHandler()
+            this.props.showNextQuestionHandler()  
         }        
 
     }
@@ -14,8 +14,8 @@ class QuizQuestion extends Component {
     render() {
         return (
             <main>
-                <section>
-                    <p></p>
+                <section>s
+                    <p>{this.props.quiz_question.instruction_text}</p>
                 </section>
                 <section className="buttons">
                     <ul>
